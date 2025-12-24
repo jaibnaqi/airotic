@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #efefef;
+  --font-sans: var(--font-montreal);
+  --font-display: var(--font-arp-display);
+  --spacing-9xl: 99rem;
+  --spacing-10xl: 119rem;
+  --spacing-7.5-percent: 7.5%;
+  --spacing-7-percent: 7%;
+  --spacing-26: 6.25rem;
+  --breakpoint-3xl: 153.125rem;
+  --text-fs-100: clamp(2.5rem, 7.1vw, 7.5rem);
+  --text-fs-60: clamp(2.5rem, 4.26vw, 4.375rem);
+  --text-fs-50: clamp(1.875rem, 3.5vw, 60px);
+  --text-fs-24: clamp(1.25rem, 1.5vw, 1.5rem);
+  --text-fs-32: clamp(1.5rem, 1.8vw, 2.1875rem);
+  --text-fs-40: clamp(1rem, 2.5vw, 2.5rem);
+  --text-fs-44: clamp(1.5rem, 3vw, 2.75rem);
+}
+
+@keyframes statisticsPanelHeading {
+  0% {
+    background-position: 0;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0;
+  }
+}
